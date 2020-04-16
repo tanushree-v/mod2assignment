@@ -1,0 +1,92 @@
+h1{
+	color: red;
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-weight: bold;
+	background-color: blue;
+	text-align: right;  
+}
+#car{
+	color: black;
+	font-size: 20px;
+	background-color: gray;
+	}
+#bike{
+	color: black;
+	font-size: 20px;
+	background-color: gray;
+	}
+#walk{
+	color: black;
+	font-size: 20px;
+	background-color: gray;
+	}
+@media(min-width: 992px){
+	#car{
+		width: 30%;
+		height: 280px;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+	#bike{
+		width: 30%;
+		height: 280px;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+	#walk{
+		width: 30%;
+		height: 280px;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#car{
+		width: 45%;
+		height: 280px;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+	#bike{
+		width: 45%;
+		height: 280px;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+	#walk{
+		width: 90%;
+		height: 280px;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+}
+@media(max-width: 767px){
+	#car{
+		width: 70%;
+		height: 70%;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+	#bike{
+		width: 70%;
+		height: 70%;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+	#walk{
+		width: 70%;
+		height: 70%;
+		margin: 2px;
+		padding: 0;
+		float: left;
+	}
+}
